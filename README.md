@@ -7,14 +7,14 @@
 在服务器端下载好代码之后执行
 
     $ cd PythonSkeleton
-    $ python setup.py test
-    $ python setup.py install
+    $ python setup.py test  # 8个测试案例，6个正确，2个错误
+    $ python setup.py install
     $ python
 ---
     >>> from PythonSkeleton.MathDemo import MathDemo
     >>> MathDemo.add(1,2)
     
-测试完成之后执行
+测试完成之后删除python根目录下的安装包
 
     $ pip uninstall PythonSkeleton
 
