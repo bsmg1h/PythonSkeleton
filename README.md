@@ -7,11 +7,11 @@
 在服务器端下载好代码之后执行
 
 
-'''python
-    $ cd PythonSkeleton
-    $ python setup.py test      
-    $ python setup.py install
-    $ python
+'''linux  
+$ cd PythonSkeleton
+$ python setup.py test      
+$ python setup.py install
+$ python
 '''
 
     >>> from PythonSkeleton.MathDemo import MathDemo
