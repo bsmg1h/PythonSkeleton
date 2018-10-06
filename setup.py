@@ -21,7 +21,7 @@ setup(
     author_email="zzq438283168@gmail.com",
     url="",
     license="",
-    packages=find_packages(exclude=("tests", "docs", "etc")),
+    packages=find_packages(exclude=("Tests", "docs", "etc")),
     install_requires=parse_requirements("requirements.txt"),
     test_suite="Tests"
     # entry_points="""

@@ -1,0 +1,8 @@
+.eggs
+PythonSkeleton.egg-info
+bin
+build
+dist
+include
+lib
+pip-selfcheck.json
